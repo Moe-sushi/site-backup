@@ -5,6 +5,7 @@ cp -rv ./public ${BK_REPO}/
 cp -rv ./source ${BK_REPO}/
 cp -v ./_config.yml ${BK_REPO}/
 cp -v ./node_modules/hexo-theme-butterfly/_config.yml  ${BK_REPO}/_config-butterfly.yml
+cp -v ./node_modules/hexo-theme-butterfly/layout/includes/footer.pug  ${BK_REPO}/footer.pug
 cp -v ./package*.json ${BK_REPO}/
 cp -rv ./push.sh ${BK_REPO}/
 cd ${BK_REPO}
